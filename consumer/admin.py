@@ -3,5 +3,6 @@ from .models import Consumer,Order
 # Register your models here.
 admin.site.register(Consumer)
 admin.site.register(Order)
-admin.site.site_header = 'Consumer Admin'
-admin.site.site_title = 'Consumer Admin'
+admin.site.site_header = 'Smart Restaurant'
+admin.site.site_title = 'Smart Restaurant'
+admin.site.index_title = 'All models'
